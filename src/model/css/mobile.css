@@ -1,0 +1,236 @@
+@media only screen and (max-width: 600px) {
+    
+    body {
+        color:#fff;
+        background-color: var(--color-secondary);
+        padding: 0vh 5vh;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .grid-container .grid-col1 {
+        grid-column: unset;
+    }
+    .grid-container .grid-col2 {
+        grid-column: unset;
+    }
+    .grid-container .grid-col3 {
+        grid-column: unset;
+    }
+
+    header {
+        display: block;
+        width: 100%;
+        padding: 0rem 1rem;
+    }
+
+    header nav {
+        float: none;
+        position: fixed;
+        display: flex;
+        width: 80vw;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        visibility: hidden;
+    }
+    
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    header nav ul li {
+        display: block;
+        padding: 1rem 0rem;
+        border-bottom: #fff solid 1px;
+    }
+
+    header nav ul li:last-child {
+        border-bottom: none;
+    }
+
+    header img {
+        display:inline-block;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    header .btn {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    /*Showcase*/
+
+    .bg-showcase {
+        height: 130vh;      
+    }
+
+    .showcase-content {
+        width: 100%;
+    }
+
+    .showcase-content h1{
+        margin-bottom: 2rem;
+    }
+
+    .showcase-content p {
+        margin-bottom: 2rem;
+    }
+
+    .showcase-images {
+        display: none;
+    }
+
+    /*Social Media*/
+    .showcase-socialMedia-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        padding: 1.5rem 0rem;
+    }
+
+    .showcase-socialMedia-container a {
+        text-decoration: none;
+    }
+
+    .showcase-socialMedia-container i {
+        color: #fff;
+        margin: 0rem 1rem;
+    }
+
+    /*Stores*/
+    .stores a img {
+        margin-bottom: 5rem;
+    }
+
+    /*articles*/
+
+    article {
+        display: block;
+        color: #000;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 0rem 0rem 1.5rem 0rem;
+        padding: 1rem;
+    }
+
+    article aside {
+        width: 100%;
+    }
+
+    article aside .alignButton {
+        display: block;
+    }
+
+    article aside p {
+        margin-bottom: 1rem;
+    }
+
+    article img {
+        display: none;
+    }
+
+    /*Testimonials*/
+
+    .testimonials {
+        display: block;
+        margin-bottom: 5rem;
+    }
+
+    .testimonial {
+        background-color: #fff;
+        color: #000;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .testimonial-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 1rem;
+    }
+
+    .testimonial-header h4 {
+        margin-left: 1rem;
+    }
+
+    /*FAQ*/
+
+    .faqs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq {
+        display: block;
+        width: 100%;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        text-align: left;
+    }
+
+    .faq h4, 
+    .faq p {
+        color: #000;
+    }
+
+    /*Footer*/
+    footer {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .contact {
+        margin-bottom: 2rem;
+    }
+
+    .contact a img {
+        display: none;
+    }
+
+    .contact p {
+        margin-bottom: 1rem;
+    }
+
+    footer menu {
+        width: 100%;
+    }
+
+    footer menu .links a,
+    footer menu .legal a {
+        color: #fff;
+    }
+
+    .menu-wrap {
+        visibility: visible;
+    }
+}
